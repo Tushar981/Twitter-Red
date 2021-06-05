@@ -193,9 +193,9 @@ def create_app(test_config=None):
             # pwd: admin123
             mydb = mysql.connect(
                 host="remotemysql.com",
-                user="yleIVCYChd",
-                password="tHGyqy7DMh",
-                database="yleIVCYChd",
+                user="jGIhnbZHQB",
+                password="m1iTmbYVIj",
+                database="jGIhnbZHQB",
                 auth_plugin='mysql_native_password'
             )
             
@@ -232,11 +232,11 @@ def create_app(test_config=None):
             username = request.form['username']
             password = request.form['password']
             email = request.form['email']
-            mydb=mysql.connect(
+            mydb = mysql.connect(
                 host="remotemysql.com",
-                user="yleIVCYChd",
-                password="tHGyqy7DMh",
-                database="yleIVCYChd",
+                user="jGIhnbZHQB",
+                password="m1iTmbYVIj",
+                database="jGIhnbZHQB",
                 auth_plugin='mysql_native_password'
             )
             
